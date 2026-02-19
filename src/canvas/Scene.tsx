@@ -35,7 +35,6 @@ export const Scene = () => {
           terrainRef={terrainRef}
         />
       ))}
-      <OrbitControls />
     </Canvas>
   );
 };
