@@ -1,0 +1,8 @@
+#include "../../utils/cnoise.glsl";
+
+varying vec2 vUv;
+
+void main() {
+  float strength = vUv.y;
+  gl_FragColor = vec4(1.0, strength, strength, 0.3);
+}
